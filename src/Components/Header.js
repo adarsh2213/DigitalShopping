@@ -31,7 +31,7 @@ function Header() {
                     <div className=" d-flex row new">
                         <div className="col-sm-2 side">
                             <div>
-                                <h1 className='text-info'>Happy More</h1>
+                                <h1 className='logoname'>Happy More</h1>
                             </div>
                             <div className='sm-3  sidebar'>
                                 <nav class="navbar ">
@@ -68,7 +68,7 @@ function Header() {
                                             <i class="bi bi-bag-fill  icon "></i>
 
                                         </div>
-                                        <a className="navbar-brand text-white" href="#">Order re</a>
+                                        <a className="navbar-brand text-white" href="#">Order report</a>
                                     </div>
                                 </nav>
 
@@ -92,10 +92,10 @@ function Header() {
 
                                     <div className="form-inputs">
 
-                                        <input className="form-control  mx-5" type="text" placeholder="Search any product..." />
+                                        <input className="form-control  mx-4" type="text" placeholder="Search any product..." />
 
                                     </div>
-                                    <div> <i class="bi bi-search icon"></i></div>
+                                    <div> <i class="bi bi-search icon3"></i></div>
                                 </div>
 
                                 <div className="col-md-2 p-2 pt-2 pb-2">
@@ -107,7 +107,7 @@ function Header() {
                                 <div className="col-md-2 pb-2 mb-2">
 
                                     <div class="dropdown ">
-                                        <a className="nav-link active ms-3 dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" aria-current="page" href="#"> <i class="bi bi-person-fill icon"></i></a>
+                                        <a className="nav-link active ms-3 dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" aria-current="page" href="#"> <i class="bi bi-person-fill icon2"></i></a>
 
 
                                         <ul class="dropdown-menu">
@@ -159,7 +159,7 @@ function Header() {
                                     </div>
 
                                     <div class="container text-center">
-                                        <div class="row">
+                                        <div class="row ">
                                             <div class="col">
                                                 <Chart
                                                     options={state.options}
@@ -168,7 +168,7 @@ function Header() {
                                                     width="90%"
                                                 />
                                             </div>
-                                            <div class="col">
+                                            <div class="col ">
 
                                                 <Chart
                                                     options={state.options}
